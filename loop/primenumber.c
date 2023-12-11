@@ -1,4 +1,4 @@
-// display this gp 100,50,25 .... up to n 
+
 #include <stdio.h>
 int main()
 {
