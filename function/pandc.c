@@ -16,5 +16,5 @@ printf("enter r\n");
 scanf("%d",&r);
 int ncr;
 ncr=factorial(n)/(factorial(r)*factorial(n-r));
-printf("%d",ncr);
+printf("%d\n",ncr);
 return 0;}
