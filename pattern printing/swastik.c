@@ -1,12 +1,43 @@
-// i want to try swastik not completed yet  
+// i want to try swastika not completed yet  
 #include <stdio.h>
-int main(void)  
-{int n;
-    printf("enter row \n");
-    scanf("%d",&n);{
-    for (int i=1;i<=n;i++){
-    for (int j=1;j<=n;j++)  {
-    if (j==(n+1)/2||i==(n+1)/2)
-    printf("*",i);
-    else printf(" ");}
-    printf("\n");}}}
+
+
+    // function to print swastika
+void swastika(int row, int coloum) 
+{
+for (int i=0;i<row;i++)
+{
+for (int j=0;j<coloum;j++)
+{
+    if (i==row/2 || j==coloum/2)
+     printf ("*");
+     else printf(" ");
+}
+     printf ("\n");
+
+if (i<row/2){
+    if (j<coloum/2){
+        
+    }
+
+}
+
+
+}
+
+
+}
+
+int main()  {
+    int row,coloum;
+    printf ("enter row of swastika :");
+    scanf("%d",&row);
+     printf ("enter coloum of swastika :");
+    scanf("%d",&coloum);
+   swastika ( row,coloum) ;
+    return 0;
+    }
+
+
+
+

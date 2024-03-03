@@ -1,18 +1,24 @@
+
+
 #include<stdio.h>
-void greet ()
+
+
+void greet () //function prototype 
 {
-    printf("good morning\n");
+    printf("good morning\n"); //function definition 
     return;
 }
 int add(int a,int b)
-{
+{   
     return a+b;
+    
 }
+
 int main (){
-    greet ();
+    greet (); // function call 
      greet ();
       greet ();
-      
+    
 
 int a,b;
 printf("enter number\n");
