@@ -7,29 +7,36 @@ void swastika(int row, int coloum)
 {
 for (int i=0;i<row;i++)
 {
-for (int j=0;j<coloum;j++)
+for (int j=0;j<coloum;j++)  
 {
     if (i==row/2 || j==coloum/2)
      printf ("*");
      else printf(" ");
 }
+
      printf ("\n");
 
-if (i<row/2){
-    if (j<coloum/2){
-        
+if ((i<row/2) ||(j<coloum/2)){
+        printf("*");
     }
-
+else if (i==0)
+{
+     printf("*");
 }
-
-
+else if (j==0)
+{
+     printf("*");
 }
-
+else 
+{
+     printf(" ");
+}
+}
 
 }
 
 int main()  {
-    int row,coloum;
+    int row,coloum ;
     printf ("enter row of swastika :");
     scanf("%d",&row);
      printf ("enter coloum of swastika :");
