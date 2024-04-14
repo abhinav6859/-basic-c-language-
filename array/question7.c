@@ -4,7 +4,7 @@
 
 int main ()
 {
-  int n;
+  int n,i;
 // Prompt the user to input the size of the array
  printf("Input the size of the array: ");
  scanf("%d", &n);
@@ -12,7 +12,7 @@ int main ()
  // Declare an array of size n to store integer values
  int arr[n];
 
-   for (int  i = 0; i <= n-1; i++)
+   for (  i = 0; i <= n-1; i++)
     {
         printf("element - %d : ", i);
         scanf("%d", &arr[i]);
@@ -25,16 +25,21 @@ int secondmax=arr[0];
         // Update mx if the current element is greater
         if (arr[i] > mx)
         {
+            secondmax=mx;
             mx = arr[i];
         }
+        else if (arr[i]>mx){
+            secondmax=arr[i];
+        }
     }
-     for (int i = 0; i < n; i++)
-    {
-        // Update mx if the current element is greater
-        if (mx !=arr[i] && arr[i] > secondmax)
-        {
-            secondmax = arr[i];
-        }}
+    
+    //  for (int i = 0; i < n; i++)
+    // {
+    //     // Update mx if the current element is greater
+    //     if (mx !=arr[i] && arr[i] > secondmax)
+    //     {
+    //         secondmax = arr[i];
+    //     }}
 
         printf("%d ",secondmax);
 

@@ -4,34 +4,21 @@
 
 int main()
 {
-  int i, n; 
-    int arr1[n], arr2[n];  
+  int n; 
+    int arr1[6]= {6,5,98,8,43,67};
+    int arr2[6];  
     
-    
-    printf("Input the number of elements to be stored in the array :");
-    scanf("%d", &n);
-    
-    printf("Input %d elements in the array :\n", n);
-    for (i = 0; i < n; i++)
-    {
-        printf("element - %d : ", i);
-        scanf("%d", &arr1[i]);  
-    }
+  
    
-    for (i = 0; i < n; i++)
+    for (int i = 0; i <= 5; i++)
     {
-        arr2[i] = arr1[i];  
+        arr2[i]=arr1[5-i] ;  
     }
 
-    /* Prints the elements of the first array */
-    printf("\nThe elements stored in the first array are :\n");
-    for (i = 0; i < n; i++)
-    {
-        printf("%d ", arr1[i]);  // Print each element in the first array
-    }
+   
     /* Prints the elements copied into the second array. */
     printf("\n\nThe elements copied into the second array are :\n");
-    for (i = n-1; i >= 0; i--)
+    for (int i = 0; i<6; i++)
     {
         printf("%d ", arr2[i]);  // Print each element in the second array
     }
