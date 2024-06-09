@@ -5,7 +5,7 @@
 int main ()
 {
   int n,i;
-// Prompt the user to input the size of the array
+// Prompt the user to input the size of the array   
  printf("Input the size of the array: ");
  scanf("%d", &n);
 

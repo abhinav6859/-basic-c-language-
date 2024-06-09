@@ -1,5 +1,7 @@
 //(*)  pointer
 
+// pointer store address of variable 
+
 #include<stdio.h>
 int main (){
 
