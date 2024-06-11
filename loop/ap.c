@@ -3,7 +3,7 @@
 int main(void)
 {
     int n;
-    printf("enter last digit \n ");
+    printf("enter digit \n ");
     scanf("%d", &n);
     for (int i = 4; i <= n; i= i+3)
     {
