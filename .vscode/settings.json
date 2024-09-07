@@ -1,6 +1,8 @@
 {
     "C_Cpp.errorSquiggles": "disabled",
     "files.associations": {
-        "random": "c"
+        "random": "c",
+        "3_CONDITIONAL.C": "cpp",
+        "conditional.C": "cpp"
     }
 }
