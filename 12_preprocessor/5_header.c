@@ -1,8 +1,8 @@
-// #include<stdio.h>
-// #include"4_myhead.c"
+#include<stdio.h>
+#include"4_myhead.c"
 
-// int main(){
-//     add(4,5);
+int main(){
+    add(4,5);
 
-//      printf("BYE!See you Soon\n"); 
-// }
+     printf("BYE!See you Soon\n"); 
+}
